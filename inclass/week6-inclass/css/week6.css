@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+/* COLORS 
+
+GOLD HEADER + BORDER + TITLES: #DB9B2C
+
+GRAY DOTTED BORDER: #999999
+
+PURPLE TITLE: #BA59B3
+
+ORANGE TITLE: #F2A72E
+
+GRADATION PURPLE: rgba(142,65,184,1.00)
+
+GRADATION ORANGE: rgba(243,174,80,1.00)
+
+*/
+
+/* GLOBAL STYLES */
+
+#wrapper {
+    width: 100%;
+    max-width: 1300px;
+    margin-bottom: 2em;
+}
+
+header {
+	width: 100%;
+	background-color: #DB9B2C;
+	text-align: right;
+	min-width: 260px;
+}
+
+header img {
+	margin: 5% 5% -5% 0;
+	width: 60%;
+	max-width: 225px;
+}
+
+.sidewalk-image {
+	margin-top: 1em;
+	width: 100%;
+	min-width: 260px;
+}
+
+.sidewalk-image img {
+	width: 95%;
+	max-width: 1000px;
+}
+
+section {
+	padding: 2em 2.5em 1em 2.5em;
+	min-width: 260px;
+}
+
+.poem h3 {
+	margin-bottom: .5em;
+	font-family: "Gill Sans", "Gill Sans MT", Helvetica, Arial, sans-serif;
+	font-size: 1.1em;
+}
+
+.poem p {
+	line-height: 1.8;
+	font-family: 'Slabo 27px', Cambria, Times, "Times New Roman", "serif";
+	font-size: .95em;
+	margin-top: 1em;
+}
+
+.poem p:last-child {
+	padding-bottom: 1em;
+	border-bottom: 1px solid #DB9B2C;
+}
+
+section img {
+	width: 95%;
+	margin-bottom: 2em;
+}
+
+.warning img {
+	width: 85%;
+}
+
+.finis, .pen {
+	display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 450px) and (max-width: 750px) {
+	header img {
+		max-width: 300px;
+	}
+	.poem h3 {
+		font-size: 1.3em;
+		color: #DB9B2c;
+	}
+	.poem p {
+		font-size: 1.2em;
+	}
+	.poem p:last-child {
+		padding-bottom: 2em;
+		border-bottom: 2px dotted #999;
+	}
+	.warning, .loser {
+		text-align: center;
+	}
+}
+@media (min-width: 600px) and (max-width: 750px) {
+	.warning img {
+		width: 70%;
+	}
+	.something-missing img {
+		width: 75%;
+	}
+}
+@media (min-width: 751px) {
+	#left-col, #right-col {
+		float: left;
+	}
+	header {
+		background-color: black;
+	}
+	header img {
+		width: 40%;
+		max-width: 350px;
+		margin-top: 2%;
+	}
+	section {
+		padding-left: 15%
+	}
+	.sidewalk-image image {
+		width: 85%;
+	}
+	.loser-image {
+		width: 115%;
+	}
+	.poem h3 {
+		font-size: 1.2em;
+		color: #DB9B2C;
+	}
+	.poem p {
+		font-size: 1.05em;
+	}
+}
+
+@media (min-width: 900px) and (max-width: 1099px) {
+	.poem p {
+		font-size: 1.2em;
+	}
+	.loser, .warning {
+		text-align: center;
+	}
+	.poem p:last-child {
+		border-bottom: none;
+	}
+	.warning img {
+		width: 70%;
+	}	
+	.pen {
+		display: block;
+		width: 80%;
+		margin-top: 1.5em;
+		margin-left: 4em;
+	}
+}
+
+@media (min-width: 1100px) {
+	header {
+	text-align: left;
+	max-height: 323px;
+	background-image: -webkit-linear-gradient(357deg,rgba(243,174,80,1.00) 0.28%,rgba(142,65,184,1.00) 100%);
+	background-image: -moz-linear-gradient(357deg,rgba(243,174,80,1.00) 0.28%,rgba(142,65,184,1.00) 100%);
+	background-image: -o-linear-gradient(357deg,rgba(243,174,80,1.00) 0.28%,rgba(142,65,184,1.00) 100%);
+	background-image: linear-gradient(93deg,rgba(243,174,80,1.00) 0.28%,rgba(142,65,184,1.00) 100%);
+	}
+	header img {
+		width: 35%;
+		max-width: 375px;
+		margin-top: 1.5em;
+		margin-right: 0;
+		margin-left: 4em;
+	}
+	#left-col {
+		width: 60%;
+		border-right: 1px solid black;
+	}
+	#right-col {
+		width: 30%;
+		float: right;
+		margin-right: 5%;
+	}
+	section {
+		padding-left: 12%;
+		padding-right: 0;
+	}
+	.poem h3 {
+		font-size: 1.2em;
+		color: #BA59B3;
+	}
+	.poem p {
+		font-size: 1.3em;
+	}
+	#right-col h3 {
+		color: #F2A72E;
+	}
+	#right-color p {
+		font-size: 1.1em;
+	}
+	.poem p:last-child {
+		border: none;
+	}
+	.loser image {
+		width: 90%;
+	}
+	.warning {
+		margin-top: -3em;
+	}
+	.finis {
+		display: block;
+		width: 110%;
+		margin-top: -6em;
+	}
+	article.poem {
+		position: relative;
+		z-index: 10;
+	}
+}
