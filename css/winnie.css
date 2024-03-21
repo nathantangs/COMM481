@@ -109,7 +109,7 @@ blockquote {
     font-size: 1.25em;
     text-align: center;
     line-height: 1.25;
-    border: thick dashed #000000;
+    border: medium dashed #000000;
 }
 
 /* MEDIA QUERIES */
