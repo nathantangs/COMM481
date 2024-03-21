@@ -18,7 +18,7 @@ h1 {
 	font-size: 4em;
 	text-align: center;
 	margin: 15px 0;
-	color: #D3B395;
+	color: #C39870;
 }
 
 h2 {
@@ -27,7 +27,7 @@ h2 {
 	font-family: 'Alegreya', serif;
 	font-size: 2.5em;
 	text-align: center;
-	color: #B4B0A9;
+	color: #76AFE4;
 }
 
 h3 {
@@ -103,13 +103,13 @@ blockquote {
     width: 80%;
     margin: 1em auto;
     padding: .75em;
-    background-color: #F3C43E;
+    background-color: #FCE090;
     border-radius: 10px;
     color: #151515;
-    font-size: 1.25em;
+    font-size: 1.3em;
     text-align: center;
     line-height: 1.25;
-    border: thick dashed #000000;
+    border: medium dashed #000000;
 }
 
 /* MEDIA QUERIES */
@@ -200,6 +200,7 @@ blockquote {
 @media (min-width: 901px) and (max-width: 1000px){
 	section {
 		width: 80%;
+		padding: 6em 8% 0 8%;
 	}
 	.illust1 {
 		width: 45%;
@@ -238,24 +239,17 @@ blockquote {
 		display: block;
 	}
 	blockquote {
-		width: 25%;
-		margin: 1.5em -2em 1.5em 2em;
-		float: right;
+		width: 80%;
 	}
 	blockquote.pullquote2 {
+		width: 80%;
 		float: left;
 		margin: .5em 1.5em .5em -1.5em;
 	}
 	blockquote.pullquote3 {
-		float: right;
+		width: 80%;
 		margin-right: -14.5em;
 		margin-top: -6.5em;
-	}
-	blockquote.pullquote4 {
-		margin-top: 5em;
-	}
-	blockquote.pullquote5 {
-		margin-top: -3em;
 	}
 }
 @media (min-width: 1001px) and (max-width: 1280px){
@@ -271,11 +265,12 @@ blockquote {
 		max-width: 500px;
 	}
 	section {
-		width: 50%;
-		float: right;
-		padding: 6em 12% 0 8%;
-		background-color: white;
-		margin: 0;
+	width: 50%;
+	float: right;
+	padding: 6em 8% 0 8%;
+	background-color: white;
+	margin: 0;
+	border-left: medium dashed rgba(0,0,0,1.00);
 	}
 	.illust1 {
 		z-index: 0;
@@ -294,9 +289,9 @@ blockquote {
 		margin-left: 0;
 	}
 	blockquote {
-		width: 35%;
+		width: 50%;
 		margin: 1.5em -2em 1.5em 2em;
-		float: right;
+		float: none;
 	}
 	blockquote.pullquote3 {
 		margin-right: -12.5em;
@@ -318,9 +313,10 @@ blockquote {
 	section {
 		width: 50%;
 		float: right;
-		padding: 6em 12% 0 8%;
+		padding: 6em 8% 0 8%;
 		background-color: white;
 		margin: 0;
+		border-left: medium dashed rgba(0,0,0,1.00);
 	}
 	.illust1 {
 		z-index: 0;
@@ -339,9 +335,8 @@ blockquote {
 		margin-left: 0;
 	}
 	blockquote {
-		width: 35%;
-		margin: 1.5em -2em 1.5em 2em;
-		float: right;
+		width: 50%;
+		margin: auto;
 	}
 	blockquote.pullquote3 {
 		margin-right: -12.5em;
