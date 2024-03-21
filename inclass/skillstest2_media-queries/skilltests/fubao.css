@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@import url("../../../css/reset.css");
+
+body {
+    background-color: #36635E;
+}	
+
+header {
+	margin-top: 3em;
+	min-width: 200px;
+}
+
+header h1 {
+	margin: 0;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 1.75em;
+	color: #E0D392;
+	letter-spacing: 0.03em;
+}
+
+section {
+	width: 100%;
+	margin-bottom: 2em;
+	min-width: 200px;
+}
+
+.fubao {
+	width: 100%;
+	line-height: 0;
+	max-width: 500px;
+	margin-top: 2em;
+}
+
+.fubao img {
+	width: 100%;
+}
+
+@media (min-width: 500px){
+	
+	body {
+		background-color: white;
+	}
+	
+	header h1 {
+		font-size: 2em;	
+	}
+	
+	section {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 4em;
+		max-width: 500px;
+	}
+
+.fubao {
+	margin-top: 3em;
+}
+	
+}
+
+@media (min-width: 800px){
+	
+	body {
+		background-color: #CA5A5E;
+	}
+	
+	header {
+		margin-top: 4em;
+	}
+	
+	header h1 {
+		font-size: 2.5em;
+		color: white;
+	}
+	
+	section {
+		max-width: 1250px;
+		width: 75%;
+		margin: 4em auto;
+	}
+	
+	.fubao {
+		width: 28%;
+		float: left;
+		margin-right: 8%;
+	}
+	
+	section .fubao:last-child {
+		margin-right: 0;
+	}
+	
+}
+
+
+
+
+
+
+
+
