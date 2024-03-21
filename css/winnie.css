@@ -9,9 +9,32 @@ article {
 }
 
 nav {
-	width: 75%;
-	margin: 1.5em auto .5em auto;
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 15px;
 }
+
+nav .back, nav .home, nav .next {
+    height: 3em;
+	width: 20%;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav .back {
+	background-image: url("../projects/p2images/nav-pooh-left.gif");
+}
+
+nav .home {
+	background-image: url("../projects/p2images/nav-pooh-home.gif");
+}
+
+nav .next {
+	background-image: url("../projects/p2images/nav-pooh-right.gif");
+}
+
 
 h1 {
 	font-family: 'Alegreya', serif;
