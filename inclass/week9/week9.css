@@ -89,6 +89,9 @@ video {
 	#cat-vid {
 		height: 23em;
 	}
+	#cat-vid img {
+		width: 20%;
+	}
 	ul {
 		width: 100%;
 	}
@@ -124,7 +127,7 @@ video {
 		height: 15em;
 	}
 	#cat-vid img {
-		width: 20%;
+		width: 23%;
 	}
 	ul li:first-child {
 		margin-left: 1em;
