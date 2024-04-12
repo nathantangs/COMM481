@@ -277,7 +277,7 @@ blockquote {
 }
 @media (min-width: 1001px) and (max-width: 1280px){
 	article {
-		background-color: #DDC17B;
+		background-color: #FDE090;
 	}
 	header {
 		width: 35%;
@@ -323,7 +323,7 @@ blockquote {
 }
 @media (min-width: 1281px){
 	article {
-		background-color: #F8F3EF;
+		background-color: #FDE090;
 	}
 	header {
 		width: 30%;
