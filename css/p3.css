@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body {
+	margin-top: 5em;
+}
+
+p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+section {
+	width: 100%;
+}
+
+nav {
+	width: 100%;
+	z-index: 10;
+	float: left;
+}
+
+.tab {
+    width: 6em;
+    height: 7em;
+    background-color: #F14766;
+    margin-bottom: 2em;
+    padding-left: 1em;
+	margin-right: 3em;
+	transition: height 1s linear;
+	overflow: hidden;
+	float: left;
+}
+
+.tab .reveal {
+	opacity: 0;
+	transition: opacity 1s linear;
+}
+
+.tab:hover {
+	height: 8em;
+}
+
+.tab:hover .reveal {
+	opacity: 1;
+}
+
+.tab p {
+	line-height: 7em;
+	color: rgba(255,255,255,0.50);
+	letter-spacing: .1em;
+}
+
+#tab2 {
+    background-color: #B0CEC9;
+}
+
+#tab3 {
+    background-color: #F8B941;
+}
+
+#sandwich {
+	width: 60%;
+	position: relative;
+}
+
+#sandwich img {
+	width: 100%;
+    min-width: 17em;
+}
+
+#sandwich .caption {
+	width: 7em;
+	height: 7em;
+	background-color: rgba(255,255,255,0.70);
+	border-radius: 50%;
+/*	position: absolute;
+*/	left: 15%;
+	top: 16em;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 3s ease;
+
+}
+
+#sandwich .caption p {
+	margin-top: 1em;
+	line-height: 1.25em;
+	font-size: 1.2em;
+}
+
+#sandwich:hover .caption {
+	opacity: 1;
+}

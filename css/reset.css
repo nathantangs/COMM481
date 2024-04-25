@@ -11,6 +11,11 @@ menu, nav, section, audio, video {
 	border: 0;
 }
 
+a {
+	text-decoration: none;
+  	font-family: "Comfortaa", sans-serif;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
