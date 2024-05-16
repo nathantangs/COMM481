@@ -286,7 +286,6 @@ figure img {
     vertical-align: top;
 }
 figure figcaption {
-    border: 1px dotted blue;
     text-align: center;
 }
 }
@@ -407,7 +406,6 @@ figure img {
     vertical-align: top;
 }
 figure figcaption {
-    border: 1px dotted blue;
     text-align: center;
 }
 }
@@ -528,7 +526,6 @@ figure img {
     vertical-align: top;
 }
 figure figcaption {
-    border: 1px dotted blue;
     text-align: center;
 }
 }
@@ -648,7 +645,6 @@ figure img {
     vertical-align: top;
 }
 figure figcaption {
-    border: 1px dotted blue;
     text-align: center;
 }
 }
@@ -769,7 +765,6 @@ figure img {
     vertical-align: top;
 }
 figure figcaption {
-    border: 1px dotted blue;
     text-align: center;
 }
 }
@@ -788,14 +783,13 @@ nav li {
 figure {
     display: inline-block;
   	border: thin #c0c0c0 solid;
-    margin-left: 375px;
+    margin-left: 430px;
 	margin-bottom: 50px;
 }
 figure img {
     vertical-align: top;
 }
 figure figcaption {
-    border: 1px dotted blue;
     text-align: center;
 }
 }
