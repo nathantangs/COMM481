@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+	margin: 75px 0 0 0;
+	background-color: #F8C364;
+}
+#webfonts {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	font-family: "aptly-medium-shadow", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+    color: white;
+    font-size: 3.5em;
+}
+
+h2 {
+	color: black;
+	font-family: 'Lilita One', cursive;
+}
+
+h3 {
+	font-family: "ff-cocon-pro", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h4 {
+	color: black;
+	font-family: 'Comfortaa', cursive;
+}

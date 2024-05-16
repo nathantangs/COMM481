@@ -1,0 +1,5 @@
+pictures sizes
+
+horse with bucket -- 750 x 565px
+man walking -- 400 x 750px
+woman dancing -- 412 x 600px

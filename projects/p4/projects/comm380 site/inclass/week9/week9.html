@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>More Divs and Behaviors</title>
+<style type="text/css">
+body,td,th {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 0.8em;
+	color: #690;
+}
+body {
+	background-color: #9c3;
+	margin-left: 0px;
+	margin-top: 50px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	letter-spacing: 0.1em;
+}
+a:link {
+	color: #690;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #690;
+}
+a:hover {
+	text-decoration: none;
+	color: #cf9;
+}
+a:active {
+	text-decoration: none;
+	color: #690;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+h1 {
+	font-size: 1.3em;
+	font-weight: normal;
+	margin: 0;
+}
+
+#wrapper {
+	width: 800px;
+}
+#rollovers {
+	width: 180px;
+	float: left;
+	padding: 40px 0 0 145px;
+}
+	
+#bigpic {
+	width: 450px;
+	float: right;
+	padding-top: 50px;
+}
+#circles {
+	width: 75px;
+	margin: 10px 10px 0 10px;
+	float: left;
+}
+#names {
+	width: 75px;
+	margin: 10px 10px 0 0;
+	float: right;
+}
+#title {
+	width: 450px;
+	padding-top: 25px;
+}
+.student-circle {
+	width: 75px;
+	height: 75px;
+	margin-bottom: 10px;
+}
+.student-name {
+	width: 75px;
+	height: 75px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+p {
+	margin: 0;
+	line-height: 75px;
+	text-transform: uppercase;
+}
+.whiteType {
+	color: #FFF;
+}
+#nowplaying {
+	width: 100px;
+	height: 100px;
+	bottom: 20px;
+	right: 20px;
+	position: fixed;	
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/adriana-sqaure.jpg','images/adriana-circle.png','images/rachel-square.jpg','images/rachel-circle.png','images/sam-squre.jpg','images/sam-circle.png','images/shayla-square.jpg','images/shayla-circle.png')">
+	
+<div id="wrapper">
+	
+	<div id="rollovers">
+		
+	  	<div id="circles">
+			
+			<div class="student-circle"><img src="images/circle.png" alt="" width="75" height="75" id="circle1"/></div>
+				
+			<div class="student-circle"><img src="images/circle.png" alt="" width="75" height="75" id="circle2"/></div>
+				
+			<div class="student-circle"><img src="images/circle.png" alt="" width="75" height="75" id="circle3"/></div>
+				
+			<div class="student-circle"><img src="images/circle.png" alt="" width="75" height="75" id="circle4"/></div>
+				
+	  	</div>
+		
+	  	<div id="names">
+		
+		 	<div class="student-name">
+		      <p><a href="#" onMouseOver="MM_swapImage('bigsquare','','images/adriana-sqaure.jpg',1);MM_swapImage('circle1','','images/adriana-circle.png',1)" onMouseOut="MM_swapImgRestore()">Adriana</a></p>
+		  </div>
+			
+			<div class="student-name">
+		  <p><a href="#" onMouseOver="MM_swapImage('bigsquare','','images/rachel-square.jpg',1);MM_swapImage('circle2','','images/rachel-circle.png',1)" onMouseOut="MM_swapImgRestore()">Rachel</a></p></div>
+				
+			<div class="student-name">
+		  <p><a href="#" onMouseOver="MM_swapImage('bigsquare','','images/sam-squre.jpg',1);MM_swapImage('circle3','','images/sam-circle.png',1)" onMouseOut="MM_swapImgRestore()"> Sam D.</a></p></div>
+				
+			<div class="student-name">
+		  <p><a href="#" onMouseOver="MM_swapImage('bigsquare','','images/shayla-square.jpg',1);MM_swapImage('circle4','','images/shayla-circle.png',1)" onMouseOut="MM_swapImgRestore()">Shayla</a></p></div>
+				
+	  	</div>
+		
+	</div>	
+
+	<div id="bigpic"><img src="images/square.gif" alt="" width="400" height="400" id="bigsquare"/>
+	  	
+	  <div id="title">
+	    <h1><span class="whiteType"><a href="../../index.html">COMM 380</a></span>: <span class="whiteType"><a href="../../index.html">INTERACTIVE MEDIA DESIGN</a></span></h1></div>
+		
+	</div>
+	<div id="nowplaying"><a href="../../index.html"><img src="../../project3/p6-spin2.gif" width="100" height="100" alt=""/></a></div>
+</div>
+	
+</body>
+</html>

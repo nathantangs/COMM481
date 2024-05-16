@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Face it: You need to understand CSS Positioning</title>
+	
+<style type="text/css">
+	
+	body {
+		margin: 0;
+	}
+	
+	#wrapper {
+    width: 275px;
+    min-height: 275px;
+    background-color: mediumpurple;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    position: relative;
+    border-radius: 2% 2% 15% 15%;
+    border-top: 25px solid #000000;
+	}
+	
+	.eyes {
+    width: 100px;
+    height: 100px;
+    background-color: lavender;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 10%;
+	}
+	
+	.eyeballs {
+    width: 50px;
+    height: 50px;
+    background-color: midnightblue;
+	margin-top: 5px;
+    margin-left: 35px;
+    border-radius: 10%;
+	}
+	
+	.eyeball-reflection{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin-left: 55px;
+    border-radius: 10%;
+	position: absolute;
+	top: 40px;
+	}
+	
+	#nose {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: darkorchid;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+	}
+	
+	#mouth {
+    width: 225px;
+    height: 60px;
+    background-color: black;
+    float: left;
+    margin-top: 65px;
+    margin-left: 25px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+	}
+	
+	.teeth {
+		width: 175px;
+		height: 25px;
+		background-color: white;
+		margin-left: 25px;
+	}
+	
+</style>
+	
+</head>
+
+<body>
+	
+	<div id="wrapper">
+	
+		<div class="eyes">
+		
+			<div class="eyeballs"></div>
+			
+				<div class="eyeball-reflection"></div>
+		
+		</div>
+		
+		<div class="eyes">
+		
+			<div class="eyeballs"></div>
+				
+				<div class="eyeball-reflection"></div>
+		
+		</div>
+		
+		<div id="nose"></div>
+		
+		<div id="mouth">
+		
+			<div class="teeth"></div>
+		
+		</div>
+	
+	</div>
+	
+</body>
+</html>

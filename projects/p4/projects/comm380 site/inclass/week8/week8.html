@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Swap Image Behaviors</title>
+	
+<style type="text/css">
+body {
+	margin-top: 25px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 35px;
+}
+	
+#wrapper {
+	width: 965px;
+	height: 575px;
+}
+#images {
+	width: 880px;
+	height: 575px;
+	float: left;
+}
+#www {
+	width: 85px;
+	height: 575px;
+	background-color: #6F33DB;
+	float: left;
+}
+	
+#banner {
+	width: 880px;
+	height: 110px;
+}
+#world {
+	width: 880px;
+	height: 465px;
+	background-color: #177FAB;
+}
+	
+.boxart {
+	width: 135px;
+	height: 110px;
+	float: left;
+	background-color: #DAC539;
+}
+	
+
+#web {
+	width: 340px;
+	height: 110px;
+	float: left;
+	background-color: #07B741;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/buttonA_over.gif','images/www_over.gif','images/web_over.jpg','images/world_over.jpg','images/surprise1.jpg','images/surprise2.jpg')">
+	
+<div id="wrapper">
+	<div id="images">
+		<div id="banner">
+			<div class="boxart"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('buttonA','','images/buttonA_over.gif',1)"><img src="images/buttonA.gif" alt="" width="135" height="110" id="buttonA"></a></div>
+			
+			<div class="boxart"><a href="#" onMouseOver="MM_swapImage('buttonwww','','images/www_over.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="images/buttonB.gif" alt="" width="135" height="110" id="buttonB" onMouseOver="MM_swapImage('www','','images/www_over.gif',1)" onMouseOut="MM_swapImgRestore()"/></a></div>
+			
+			<div class="boxart"><a href="#"><img src="images/buttonC.jpg" alt="" width="135" height="110" id="buttonC" onMouseOver="MM_swapImage('buttonweb','','images/web_over.jpg',1);MM_swapImage('buttonweb','','images/web_over.jpg',1)" onMouseOut="MM_swapImgRestore()"/></a></div>
+			
+			<div class="boxart"><a href="#"><img src="images/buttonD.gif" alt="" width="135" height="110" id="buttonD" onMouseOver="MM_swapImage('buttonworld','','images/world_over.jpg',1)" onMouseOut="MM_swapImgRestore()"/></a></div>
+			
+			<div id="web"><a href="#"><img src="images/web.jpg" alt="" width="340" height="110" id="buttonweb" onMouseOver="MM_swapImage('buttonworld','','images/surprise1.jpg',1)" onMouseOut="MM_swapImgRestore()"/></a></div>
+		</div>
+		
+		<div id="world"><a href="#"><img src="images/world.jpg" alt="" width="880" height="465" id="buttonworld"/></a>
+		</div>
+		
+	</div>
+	
+	<div id="www"><a href="#"><img src="images/www.gif" alt="" width="85" height="575" id="buttonwww" onMouseOver="MM_swapImage('buttonC','','images/surprise2.jpg',1)" onMouseOut="MM_swapImgRestore()"/></a>
+	</div>
+	
+</div>
+	
+</body>
+</html>
