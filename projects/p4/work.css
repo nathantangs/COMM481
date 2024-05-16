@@ -146,7 +146,367 @@ figcaption {
   	text-align: center;
 }
 
-@media (min-width: 500px){
+@media (min-width: 300px){
+nav li {
+	font-family: "Bitter", serif;
+	font-size: .8em;
+	display: inline-block;
+	margin-left: 0em;
+	margin-right: 2em;
+	letter-spacing: 0.07em;
+	line-height: 2.5em;
+	color: white;
+	text-transform: lowercase;	
+}
+	section.one .menu {
+	position: absolute;
+  	top: 30px;
+  	left: 0px;
+	font-family: "Bitter", serif;
+    font-weight: 300;
+    font-size: 1.7em;
+    line-height: 1em;
+    color: white;
+	text-align: center;
+}
+	#work {
+	width: 100%;
+	max-height: 500em;
+	background-color: #9ea3b0; /*edece9*/
+	position: relative;
+}
+
+#work img {
+	width: 100%;
+}
+	
+#work video {
+	width: 100%;
+}
+
+/*#work img:hover {
+	width: 75%;
+	height: 75;
+}*/
+
+#work h1 {
+  	font-family: "Bitter", serif;
+	font-weight: 800;
+	font-size: 3em;
+	color: black;
+	padding: 4%;
+	text-align: center;
+}
+
+#work p {
+	width: 85%;
+	line-height: 1.5em;
+	font-size: 3em;
+  	font-family: "Bitter", serif;
+	font-weight: 400;
+	color: black;
+	padding: 2% 5% 2% 5%;
+	margin: auto;
+}
+
+section.acting {
+	width: 90%;
+	height: 90em;
+	margin: auto;
+	background-color: #70798c; 
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+  	color: black;
+}
+
+section.acting img{
+	display: inline-block;
+	position: relative;
+}
+
+section.digitalwork {
+	width: 90%;
+	height: 100em;
+	margin: auto;
+	background-color: #485675;
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+}
+
+section.digitalwork img{
+	float: left;
+	display: inline-block;
+}
+
+/*figure {
+  	border: thin #c0c0c0 solid;
+ 	display: inline-block;
+ 	flex-flow: column;
+  	max-width: 400px;
+	width: 105%;
+	margin: auto;
+	padding-left: 100px;
+
+}
+
+figure img {
+	vertical-align: top;
+}
+
+figcaption {
+	font-family: "Bitter", serif;
+  	background-color: #222;
+  	color: #fff;
+  	font: italic smaller sans-serif;
+  	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding-left: 100px;
+
+}*/
+	
+figure {
+    display: inline-block;
+  	border: thin #c0c0c0 solid;
+    margin-left: 10px;
+	margin-bottom: 50px;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+}
+}
+
+
+@media (min-width: 400px){
+nav li {
+	font-family: "Bitter", serif;
+	font-size: .8em;
+	display: inline-block;
+	margin-left: 0em;
+	margin-right: 2em;
+	letter-spacing: 0.07em;
+	line-height: 2.5em;
+	color: white;
+	text-transform: lowercase;	
+}
+	section.one .menu {
+	position: absolute;
+  	top: 30px;
+  	left: 10px;
+	font-family: "Bitter", serif;
+    font-weight: 300;
+    font-size: 1.7em;
+    line-height: 1em;
+    color: white;
+	text-align: center;
+}
+}
+
+@media (min-width: 522px){
+nav li {
+	font-family: "Bitter", serif;
+	font-size: .8em;
+	display: inline-block;
+	margin-left: 0em;
+	margin-right: 3.3em;
+	letter-spacing: 0.07em;
+	line-height: 2.5em;
+	color: white;
+	text-transform: lowercase;	
+}
+	section.one .menu {
+	position: absolute;
+  	top: 30px;
+  	left: 10px;
+	font-family: "Bitter", serif;
+    font-weight: 300;
+    font-size: 1.7em;
+    line-height: 1em;
+    color: white;
+	text-align: center;
+}
+	#work {
+	width: 100%;
+	max-height: 500em;
+	background-color: #9ea3b0; /*edece9*/
+	position: relative;
+}
+
+#work img {
+	width: 100%;
+}
+	
+#work video {
+	width: 100%;
+}
+
+/*#work img:hover {
+	width: 75%;
+	height: 75;
+}*/
+
+#work h1 {
+  	font-family: "Bitter", serif;
+	font-weight: 800;
+	font-size: 3em;
+	color: black;
+	padding: 4%;
+	text-align: center;
+}
+
+#work p {
+	width: 85%;
+	line-height: 1.5em;
+	font-size: 3em;
+  	font-family: "Bitter", serif;
+	font-weight: 400;
+	color: black;
+	padding: 2% 5% 2% 5%;
+	margin: auto;
+}
+
+section.acting {
+	width: 90%;
+	height: 90em;
+	margin: auto;
+	background-color: #70798c; 
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+  	color: black;
+}
+
+section.acting img{
+	display: inline-block;
+	position: relative;
+}
+
+section.digitalwork {
+	width: 90%;
+	height: 100em;
+	margin: auto;
+	background-color: #485675;
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+}
+
+section.digitalwork img{
+	float: left;
+	display: inline-block;
+}
+
+/*figure {
+  	border: thin #c0c0c0 solid;
+ 	display: inline-block;
+ 	flex-flow: column;
+  	max-width: 400px;
+	width: 105%;
+	margin: auto;
+	padding-left: 100px;
+
+}
+
+figure img {
+	vertical-align: top;
+}
+
+figcaption {
+	font-family: "Bitter", serif;
+  	background-color: #222;
+  	color: #fff;
+  	font: italic smaller sans-serif;
+  	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding-left: 100px;
+
+}*/
+	
+figure {
+    display: inline-block;
+  	border: thin #c0c0c0 solid;
+    margin-left: 50px;
+	margin-bottom: 50px;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+}
+}
+
+@media (min-width: 600px){
+nav li {
+	font-family: "Bitter", serif;
+	font-size: .8em;
+	display: inline-block;
+	margin-left: 0em;
+	margin-right: 3.8em;
+	letter-spacing: 0.07em;
+	line-height: 2.5em;
+	color: white;
+	text-transform: lowercase;	
+}
+	section.one .menu {
+	position: absolute;
+  	top: 30px;
+  	left: 10px;
+	font-family: "Bitter", serif;
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 1em;
+    color: white;
+	text-align: center;
+}
+figure {
+    display: inline-block;
+  	border: thin #c0c0c0 solid;
+    margin-left: 90px;
+	margin-bottom: 50px;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+}
+}
+
+
+@media (min-width: 700px){
+nav li {
+	font-family: "Bitter", serif;
+	font-size: .8em;
+	display: inline-block;
+	margin-left: 0em;
+	margin-right: 4em;
+	letter-spacing: 0.07em;
+	line-height: 2.5em;
+	color: white;
+	text-transform: lowercase;	
+}
+	section.one .menu {
+	position: absolute;
+  	top: 30px;
+  	left: 10px;
+	font-family: "Bitter", serif;
+    font-weight: 300;
+    font-size: 2.3em;
+    line-height: 1em;
+    color: white;
+	text-align: center;
+}
+	figure {
+    display: inline-block;
+  	border: thin #c0c0c0 solid;
+    margin-left: 120px;
+	margin-bottom: 50px;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+}
 }
 
 @media (min-width: 800px){
@@ -180,7 +540,7 @@ section.one .menu {
   	left: 50px;
 	font-family: "Bitter", serif;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 2.5em;
     line-height: 1em;
     color: white;
 	text-align: center;
