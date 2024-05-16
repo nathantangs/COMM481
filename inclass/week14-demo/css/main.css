@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+html {
+    background-color: rgba(61,64,72,1.00);
+}
+
+#container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+    max-width: 1500px;
+    background-color: rgba(202,241,49,1.00);
+}
+
+section.one {
+    height: 255px;
+    background-image: url(../images/parallax-rebirth.jpg);
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+
+section.two {
+    height: 240px;
+    background-image: url(../images/parallax_barrier.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 0% 0%;
+}
+
+section.three {
+    height: 250px;
+    background-image: url(../images/parallax-back.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+section.four {
+    height: 260px;
+    background-image: url(../images/parallax-measuring-star-distance.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+section.five {
+    background-color: black;
+    height: 2000px;
+    padding-top: 750px;
+    text-align: center;
+}
+
+section.five img {
+    width: 80%;
+    max-width: 500px;
+}
+
+section.text {
+    width: 80%;
+    padding: 2em 10%;
+}
+
+section.text p {
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: 200;
+    font-size: .9em;
+    line-height: 2em;
+    color: black;
+}
+
+em {
+    font-weight: 600;
+    font-style: normal;
+    font-size: .85em;
+}
+
+@media (min-width: 550px){
+    
+    section.one {
+        height: 375px;
+        background-size: 120%;
+    }
+    
+    section.two {
+        height: 375px;
+        background-size: 100%;
+    }
+    
+    section.three {
+        height: 375px;
+    }
+    
+    section.four {
+        height: 425px;
+    }
+
+    section.text p {
+        font-size: 1.2em;
+        line-height: 2.4em;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    
+    section.one {
+        height: 550px;
+        background-size: 110%;
+    }
+    
+    section.two {
+        height: 555px;
+    }
+    
+    section.three {
+        height: 475px;
+        background-size: 110%;
+    }
+    
+    section.four {
+        height: 475px;
+        background-size: 100%;
+    }
+
+    section.text p {
+        font-size: 1.4em;
+    }
+
+    section.text {
+        width: 70%;
+        padding: 4em 15%;
+    }
+   
+}
+
+@media (min-width: 1300px){
+    
+   section.one {
+        height: 650px;
+        background-size: 100%;
+    }
+    
+    section.two {
+        height: 655px;
+    }
+    
+    section.three {
+        height: 625px;
+        background-size: 110%;
+    }
+    
+    section.four {
+        height: 650px;
+        background-size: 100%;
+    }
+
+    section.text p {
+        font-size: 1.8em;
+    }
+    
+}

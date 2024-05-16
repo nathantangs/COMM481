@@ -1,0 +1,801 @@
+@charset "UTF-8";
+
+nav ul {
+	width: 100%;
+}
+
+nav li {
+	font-family: "Bitter", serif;
+	font-size: .8em;
+	display: inline-block;
+	margin-left: 3em;
+	margin-right: 10em;
+	letter-spacing: 0.07em;
+	line-height: 2.5em;
+	color: white;
+	text-transform: lowercase;	
+}
+
+ul li:first-child{
+	margin-left: 1.2em;
+}
+
+ul li:last-child{
+	margin-right: 0;
+}
+
+nav a {
+	color: white;
+	font-weight: 400;
+}
+
+nav a:hover{
+	color: lightgrey;
+}
+
+#lead {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+    max-width: 1500px;
+    background-color: rgba(0,0,0,1.00)
+}
+
+section.one {
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+section.one .menu {
+	position: absolute;
+  	top: 30px;
+  	left: 230px;
+	font-family: "Bitter", serif;
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 1em;
+    color: white;
+	text-align: center;
+}
+
+#work {
+	width: 100%;
+	max-height: 500em;
+	background-color: #9ea3b0; /*edece9*/
+	position: relative;
+}
+
+#work img {
+	width: 100%;
+/*	transition: width 2s, height 4s ease-in-out;*/
+}
+
+/*#work img:hover {
+	width: 75%;
+	height: 75;
+}*/
+
+#work h1 {
+  	font-family: "Bitter", serif;
+	font-weight: 800;
+	font-size: 3em;
+	color: black;
+	padding: 4%;
+	text-align: center;
+}
+
+#work p {
+	width: 85%;
+	line-height: 1.5em;
+	font-size: 3em;
+  	font-family: "Bitter", serif;
+	font-weight: 400;
+	color: black;
+	padding: 2% 5% 2% 5%;
+	margin: auto;
+}
+
+section.acting {
+	width: 90%;
+	height: 38em;
+	margin: auto;
+	background-color: #70798c; 
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+  	color: black;
+}
+
+section.acting img{
+	float: left;
+	display: inline-block;
+	position: relative;
+}
+
+section.digitalwork {
+	width: 90%;
+	height: 38em;
+	margin: auto;
+	background-color: #485675;
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+}
+
+section.digitalwork img{
+	float: left;
+	display: inline-block;
+}
+
+figure {
+  	border: thin #c0c0c0 solid;
+ 	display: inline-block;
+ 	flex-flow: column;
+  	padding: 5px;
+  	max-width: 400px;
+  	margin: 0 10px 0 5px;
+}
+
+figcaption {
+	font-family: "Bitter", serif;
+  	background-color: #222;
+  	color: #fff;
+  	font: italic smaller sans-serif;
+  	padding: 3px;
+  	text-align: center;
+}
+
+@media (min-width: 800px){
+		
+nav li {
+	font-family: "Bitter", serif;
+	font-size: .8em;
+	display: inline-block;
+	margin-right: 5em;
+	letter-spacing: 0.07em;
+	line-height: 2.5em;
+	color: white;
+	text-transform: lowercase;	
+}
+	
+section {
+    width: 100%;
+    max-width: 1500px;
+    background-color: rgba(0,0,0,1.00)
+}
+
+section.one {
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+section.one .menu {
+	position: absolute;
+  	top: 30px;
+  	left: 50px;
+	font-family: "Bitter", serif;
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 1em;
+    color: white;
+	text-align: center;
+}
+	#work {
+	width: 100%;
+	max-height: 500em;
+	background-color: #9ea3b0; /*edece9*/
+	position: relative;
+}
+
+#work img {
+	width: 100%;
+}
+	
+#work video {
+	width: 100%;
+}
+
+/*#work img:hover {
+	width: 75%;
+	height: 75;
+}*/
+
+#work h1 {
+  	font-family: "Bitter", serif;
+	font-weight: 800;
+	font-size: 3em;
+	color: black;
+	padding: 4%;
+	text-align: center;
+}
+
+#work p {
+	width: 85%;
+	line-height: 1.5em;
+	font-size: 3em;
+  	font-family: "Bitter", serif;
+	font-weight: 400;
+	color: black;
+	padding: 2% 5% 2% 5%;
+	margin: auto;
+}
+
+section.acting {
+	width: 90%;
+	height: 90em;
+	margin: auto;
+	background-color: #70798c; 
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+  	color: black;
+}
+
+section.acting img{
+	display: inline-block;
+	position: relative;
+}
+
+section.digitalwork {
+	width: 90%;
+	height: 100em;
+	margin: auto;
+	background-color: #485675;
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+}
+
+section.digitalwork img{
+	float: left;
+	display: inline-block;
+}
+
+/*figure {
+  	border: thin #c0c0c0 solid;
+ 	display: inline-block;
+ 	flex-flow: column;
+  	max-width: 400px;
+	width: 105%;
+	margin: auto;
+	padding-left: 100px;
+
+}
+
+figure img {
+	vertical-align: top;
+}
+
+figcaption {
+	font-family: "Bitter", serif;
+  	background-color: #222;
+  	color: #fff;
+  	font: italic smaller sans-serif;
+  	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding-left: 100px;
+
+}*/
+	
+figure {
+    display: inline-block;
+  	border: thin #c0c0c0 solid;
+    margin-left: 150px;
+	margin-bottom: 50px;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+}
+
+@media (min-width: 900px){
+nav li {
+	font-family: "Bitter", serif;
+	font-size: .8em;
+	display: inline-block;
+	margin-right: 5em;
+	letter-spacing: 0.07em;
+	line-height: 2.5em;
+	color: white;
+	text-transform: lowercase;	
+}
+	
+	#work {
+	width: 100%;
+	max-height: 500em;
+	background-color: #9ea3b0; /*edece9*/
+	position: relative;
+}
+
+#work img {
+	width: 100%;
+}
+	
+#work video {
+	width: 100%;
+}
+
+/*#work img:hover {
+	width: 75%;
+	height: 75;
+}*/
+
+#work h1 {
+  	font-family: "Bitter", serif;
+	font-weight: 800;
+	font-size: 4em;
+	color: black;
+	padding: 4%;
+	text-align: center;
+}
+
+#work p {
+	width: 85%;
+	line-height: 1.5em;
+	font-size: 3em;
+  	font-family: "Bitter", serif;
+	font-weight: 400;
+	color: black;
+	padding: 2% 5% 2% 5%;
+	margin: auto;
+}
+
+section.acting {
+	width: 90%;
+	height: 90em;
+	margin: auto;
+	background-color: #70798c; 
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+  	color: black;
+}
+
+section.acting img{
+	display: inline-block;
+	position: relative;
+}
+
+section.digitalwork {
+	width: 90%;
+	height: 100em;
+	margin: auto;
+	background-color: #485675;
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+}
+
+section.digitalwork img{
+	float: left;
+	display: inline-block;
+}
+
+/*figure {
+  	border: thin #c0c0c0 solid;
+ 	display: inline-block;
+ 	flex-flow: column;
+  	max-width: 400px;
+	width: 105%;
+	margin: auto;
+	padding-left: 100px;
+
+}
+
+figure img {
+	vertical-align: top;
+}
+
+figcaption {
+	font-family: "Bitter", serif;
+  	background-color: #222;
+  	color: #fff;
+  	font: italic smaller sans-serif;
+  	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding-left: 100px;
+
+}*/
+	
+figure {
+    display: inline-block;
+  	border: thin #c0c0c0 solid;
+    margin-left: 190px;
+	margin-bottom: 50px;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+}
+
+@media (min-width: 1000px){
+	nav li {
+	font-family: "Bitter", serif;
+	font-size: .8em;
+	display: inline-block;
+	margin-right: 7.7em;
+	letter-spacing: 0.07em;
+	line-height: 2.5em;
+	color: white;
+	text-transform: lowercase;	
+}
+	
+#work {
+	width: 100%;
+	max-height: 500em;
+	background-color: #9ea3b0; /*edece9*/
+	position: relative;
+}
+
+#work img {
+	width: 100%;
+}
+	
+#work video {
+	width: 100%;
+}
+
+/*#work img:hover {
+	width: 75%;
+	height: 75;
+}*/
+
+#work h1 {
+  	font-family: "Bitter", serif;
+	font-weight: 800;
+	font-size: 4.5em;
+	color: black;
+	padding: 4%;
+	text-align: center;
+}
+
+#work p {
+	width: 85%;
+	line-height: 1.5em;
+	font-size: 3.5em;
+  	font-family: "Bitter", serif;
+	font-weight: 400;
+	color: black;
+	padding: 2% 5% 2% 5%;
+	margin: auto;
+}
+
+section.acting {
+	width: 90%;
+	height: 90em;
+	margin: auto;
+	background-color: #70798c; 
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+  	color: black;
+}
+
+section.acting img{
+	display: inline-block;
+	position: relative;
+}
+
+section.digitalwork {
+	width: 90%;
+	height: 100em;
+	margin: auto;
+	background-color: #485675;
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+}
+
+section.digitalwork img{
+	float: left;
+	display: inline-block;
+}
+
+/*figure {
+  	border: thin #c0c0c0 solid;
+ 	display: inline-block;
+ 	flex-flow: column;
+  	max-width: 400px;
+	width: 105%;
+	margin: auto;
+	padding-left: 100px;
+
+}
+
+figure img {
+	vertical-align: top;
+}
+
+figcaption {
+	font-family: "Bitter", serif;
+  	background-color: #222;
+  	color: #fff;
+  	font: italic smaller sans-serif;
+  	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding-left: 100px;
+
+}*/
+	
+figure {
+    display: inline-block;
+  	border: thin #c0c0c0 solid;
+    margin-left: 230px;
+	margin-bottom: 50px;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+}
+@media (min-width: 1100px){
+nav li {
+	font-family: "Bitter", serif;
+	font-size: .8em;
+	display: inline-block;
+	margin-right: 8.8em;
+	letter-spacing: 0.07em;
+	line-height: 2.5em;
+	color: white;
+	text-transform: lowercase;	
+}
+	
+#work {
+	width: 100%;
+	max-height: 500em;
+	background-color: #9ea3b0; /*edece9*/
+	position: relative;
+}
+
+#work img {
+	width: 100%;
+}
+	
+#work video {
+	width: 100%;
+}
+
+/*#work img:hover {
+	width: 75%;
+	height: 75;
+}*/
+
+#work h1 {
+  	font-family: "Bitter", serif;
+	font-weight: 800;
+	font-size: 4.5em;
+	color: black;
+	padding: 4%;
+	text-align: center;
+}
+
+#work p {
+	width: 85%;
+	line-height: 1.5em;
+	font-size: 3.5em;
+  	font-family: "Bitter", serif;
+	font-weight: 400;
+	color: black;
+	padding: 2% 5% 2% 5%;
+	margin: auto;
+}
+
+section.acting {
+	width: 90%;
+	height: 90em;
+	margin: auto;
+	background-color: #70798c; 
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+  	color: black;
+}
+
+section.acting img{
+	display: inline-block;
+	position: relative;
+}
+
+section.digitalwork {
+	width: 90%;
+	height: 100em;
+	margin: auto;
+	background-color: #485675;
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+}
+
+section.digitalwork img{
+	float: left;
+	display: inline-block;
+}
+
+/*figure {
+  	border: thin #c0c0c0 solid;
+ 	display: inline-block;
+ 	flex-flow: column;
+  	max-width: 400px;
+	width: 105%;
+	margin: auto;
+	padding-left: 100px;
+
+}
+
+figure img {
+	vertical-align: top;
+}
+
+figcaption {
+	font-family: "Bitter", serif;
+  	background-color: #222;
+  	color: #fff;
+  	font: italic smaller sans-serif;
+  	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding-left: 100px;
+
+}*/
+	
+figure {
+    display: inline-block;
+  	border: thin #c0c0c0 solid;
+    margin-left: 280px;
+	margin-bottom: 50px;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+}
+
+@media (min-width: 1200px){
+nav li {
+	font-family: "Bitter", serif;
+	font-size: .8em;
+	display: inline-block;
+	margin-right: 12.2em;
+	letter-spacing: 0.07em;
+	line-height: 2.5em;
+	color: white;
+	text-transform: lowercase;	
+}
+	
+#work {
+	width: 100%;
+	max-height: 500em;
+	background-color: #9ea3b0; /*edece9*/
+	position: relative;
+}
+
+#work img {
+	width: 100%;
+}
+	
+#work video {
+	width: 100%;
+}
+
+/*#work img:hover {
+	width: 75%;
+	height: 75;
+}*/
+
+#work h1 {
+  	font-family: "Bitter", serif;
+	font-weight: 800;
+	font-size: 4.5em;
+	color: black;
+	padding: 4%;
+	text-align: center;
+}
+
+#work p {
+	width: 85%;
+	line-height: 1.5em;
+	font-size: 3.5em;
+  	font-family: "Bitter", serif;
+	font-weight: 400;
+	color: black;
+	padding: 2% 5% 2% 5%;
+	margin: auto;
+}
+
+section.acting {
+	width: 90%;
+	height: 90em;
+	margin: auto;
+	background-color: #70798c; 
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+  	color: black;
+}
+
+section.acting img{
+	display: inline-block;
+	position: relative;
+}
+
+section.digitalwork {
+	width: 90%;
+	height: 100em;
+	margin: auto;
+	background-color: #485675;
+	border-bottom: 30px solid rgba(158,163,176,1.00);
+}
+
+section.digitalwork img{
+	float: left;
+	display: inline-block;
+}
+
+/*figure {
+  	border: thin #c0c0c0 solid;
+ 	display: inline-block;
+ 	flex-flow: column;
+  	max-width: 400px;
+	width: 105%;
+	margin: auto;
+	padding-left: 100px;
+
+}
+
+figure img {
+	vertical-align: top;
+}
+
+figcaption {
+	font-family: "Bitter", serif;
+  	background-color: #222;
+  	color: #fff;
+  	font: italic smaller sans-serif;
+  	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding-left: 100px;
+
+}*/
+	
+figure {
+    display: inline-block;
+  	border: thin #c0c0c0 solid;
+    margin-left: 280px;
+	margin-bottom: 50px;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+}
+@media (min-width: 1280px){
+nav li {
+	font-family: "Bitter", serif;
+	font-size: .8em;
+	display: inline-block;
+	margin-right: 13em;
+	letter-spacing: 0.07em;
+	line-height: 2.5em;
+	color: white;
+	text-transform: lowercase;	
+}	
+	
+figure {
+    display: inline-block;
+  	border: thin #c0c0c0 solid;
+    margin-left: 375px;
+	margin-bottom: 50px;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+}

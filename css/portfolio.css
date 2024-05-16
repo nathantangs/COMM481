@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body {
+	width: 100%;
+	max-width: 1250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#topbar {
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	width: 100%;
+	max-width: 1250px;
+	max-height: 100px;
+	background-color: #201e1d;
+}
+
+/*#topbar h1 {
+  	font-family: "Lilita One", sans-serif;
+	font-weight: 500;
+	color: white;
+	text-align: center;
+	font-size: 3.3em;
+	line-height: 100px;
+}*/
+
+#topbar h1 {
+  	font-family: "Lilita One", sans-serif;
+	font-weight: 500;
+	color: white;
+	text-align: center;
+	font-size: 3.3em;
+	line-height: 100px;
+}
+
+#leadphoto {
+	width: 100%;
+	max-width: 1250px;
+	height: 100%;
+	overflow: hidden;
+}
+
+#leadphoto img {
+	width: 100%;
+	height: 100%;
+	max-height: 55em;
+	overflow: hidden;
+}
+
+#leadphoto h1 {
+  	font-family: "Lilita One", sans-serif;
+	font-weight: 500;
+	color: white;
+	text-align: center;
+	font-size: 3.3em;
+	line-height: 100px;
+}
+
+section {
+    width: 100%;
+    max-width: 1500px;
+    background-color: rgba(188,164,142,1.00);
+}
+
+section.one {
+   	max-height: 1000px;
+    background-image: url("banner.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+	position: relative;
+}
+
+section.one img {
+	width: 100%;
+	height: 100%;
+	max-height: 100em;
+	overflow: hidden;
+}
+
+section.one .topleft {
+	position: absolute;
+  	top: 100px;
+  	left: 120px;
+  	font-family: "Bitter", serif;
+    font-weight: 500;
+    font-size: 5em;
+    line-height: 1em;
+    color: white;
+	text-align: center;
+}
+
+section.one .actor {
+	position: absolute;
+  	top: 300px;
+  	left: 150px;
+  	font-family: "Bitter", serif;
+    font-weight: 300;
+    font-size: 2.3em;
+    line-height: 1em;
+    color: white;
+	text-align: center;
+	font-style: italic;
+}
+
+section.text {
+    width: 80%;
+    padding: 2em 10%;
+}
+
+section.text p {
+	font-family: 'Red Hat Display', sans-serif;
+    font-weight: 200;
+    font-size: .9em;
+    line-height: 2em;
+    color: black;
+}
+
+#largephoto {
+	width: 100%;
+	max-width: 1250px;
+	display: none;
+}
+
+#largephoto img {
+	width: 100%;
+	max-height: 25em;
+	overflow: hidden;
+}
+
+#bio {
+	width: 100%;
+	background-color: #304f54;
+}
+
+#bio h1 {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 800;
+	font-size: 3em;
+	color: white;
+	padding: 5%;
+}
+
+#bio p {
+	width: 90%;
+	line-height: 1.5em;
+	font-size: 1.25em;
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 400;
+	color: white;
+	padding: 0 5% 5% 5%;
+}
